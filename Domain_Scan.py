@@ -28,7 +28,7 @@ IBM_headers = {
 
 Virus_Total_headers = {
     "accept": "application json",
-    "x-apikey": "Virus_Total_Key"
+    "x-apikey": Virus_Total_Key
 }
 
 # Create and open output files
@@ -52,7 +52,7 @@ with open(output_file_csv, 'w', newline='') as csv_file:
             IBM_response = requests.get(IBM_URL, headers=IBM_headers)
             MANDIANT_API_response = requests.get(MANDIANT_API_URL, headers=MANDIANT_API_headers)
 
-            response = response.text
+            Virus_Total_response = Virus_Total_response.text
             IBM_response = IBM_response.text
             MANDIANT_API_response = MANDIANT_API_response.text
 
