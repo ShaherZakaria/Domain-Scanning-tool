@@ -9,7 +9,7 @@ from MToken import Mandiant_Token
 IBM_Key = 'IBM_Key'
 AV_Key = 'AV_Key'
 MANDIANT_API_KEY = Mandiant_Token
-
+Virus_Total_Key='Virus_Total_Key'
 # File paths
 input_file = r"\Path\Domains.txt"
 output_file_csv = r"\Path\RES.csv"
@@ -28,7 +28,7 @@ IBM_headers = {
 
 Virus_Total_headers = {
     "accept": "application json",
-    "x-apikey": "API_KEY"
+    "x-apikey": "Virus_Total_Key"
 }
 
 # Create and open output files
