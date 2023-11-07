@@ -28,7 +28,7 @@ IBM_headers = {
 
 Virus_Total_headers = {
     "accept": "application json",
-    "x-apikey": "82ea8ee1b549bfeae5c09a6bf2aeae06aec03f79780e2bc84e0b4ef601ec7b32"
+    "x-apikey": "API_KEY"
 }
 
 # Create and open output files
