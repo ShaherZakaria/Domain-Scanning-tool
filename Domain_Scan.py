@@ -3,7 +3,7 @@ from OTXv2 import IndicatorTypes
 import requests
 import json
 import csv
-from MToken import Mandiant_Token
+from Mandiant_Token import Mandiant_Token
 
 # Define your API keys
 IBM_Key = 'IBM_Key'
